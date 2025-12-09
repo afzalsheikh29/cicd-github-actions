@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "Node.js Test app for DevOps CI/CD with GitHub Actions and Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"No automated tests yet\" && exit 0"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "devops",
+    "ci-cd",
+    "github-actions",
+    "docker"
+  ],
+  "author": "Afzal Khan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

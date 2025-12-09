@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Node.js CI/CD App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <h1>Node.js CI/CD App 🚀</h1>
+        <p class="subtitle">Built on Node.js, Docker, and GitHub Actions.</p>
+      </header>
+
+      <main>
+        <section class="card">
+          <h2>App Info</h2>
+          <button id="load-info-btn">Load Info</button>
+          <pre id="info-output">
+Click "Load Info" to fetch data from /api/info</pre
+          >
+        </section>
+
+        <section class="card">
+          <h2>Health Check</h2>
+          <button id="health-btn">Check /healthz</button>
+          <pre id="health-output">
+Click "Check /healthz" to test health endpoint</pre
+          >
+        </section>
+      </main>
+
+      <footer>
+        <p>DevOps & CI/CD.</p>
+      </footer>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
